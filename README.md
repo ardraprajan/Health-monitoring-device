@@ -2,11 +2,11 @@
 
 An IoT-based healthcare monitoring system built using **ESP32**, **FreeRTOS**, **MQTT**, and **Adafruit IO** for real-time patient health monitoring, environmental sensing, alert generation, and role-based dashboards.
 
-## 📌 Overview
+##  Overview
 
 This project simulates a smart hospital environment where patient vital signs and healthcare facility conditions are monitored continuously. The system uses concurrent FreeRTOS tasks to collect sensor data, process alerts, publish information to cloud dashboards, and provide real-time visualization.
 
-## ✨ Features
+##  Features
 
 - Real-time patient health monitoring
 - Environmental monitoring for healthcare facilities
@@ -17,7 +17,7 @@ This project simulates a smart hospital environment where patient vital signs an
 - Data aggregation for simplified monitoring
 - Watchdog timer for improved system reliability
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - ESP32
 - FreeRTOS
@@ -27,7 +27,7 @@ This project simulates a smart hospital environment where patient vital signs an
 - OLED Display
 - Wokwi Simulator
 
-## 📊 Parameters Monitored
+##  Parameters Monitored
 
 ### Patient Monitoring
 - Body Temperature
@@ -42,7 +42,7 @@ This project simulates a smart hospital environment where patient vital signs an
 - Air Quality Index (AQI)
 - Motion Detection
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system is divided into multiple FreeRTOS tasks responsible for:
 
@@ -60,7 +60,7 @@ Inter-task communication is implemented using:
 - Semaphores
 - Mutexes
 
-## 📡 Cloud Dashboard
+##  Cloud Dashboard
 
 Sensor data and alerts are published to **Adafruit IO** using MQTT.
 
@@ -79,7 +79,7 @@ Two separate dashboards are implemented:
   - Motion Detection
   - Facility Alerts
 
-## 🚨 Alert System
+##  Alert System
 
 The system generates alerts whenever sensor readings exceed predefined thresholds.
 
@@ -94,7 +94,7 @@ Examples include:
 - Low Oxygen Levels
 - Motion Detection Alerts
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── Code/
@@ -114,16 +114,8 @@ Examples include:
 └── README.md
 ```
 
-## 📷 Project Screenshots
 
-Include screenshots of:
-
-- Circuit Diagram
-- OLED Display
-- Adafruit IO Dashboards
-- MQTT Feeds
-
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Integration with real hardware sensors
 - Secure MQTT communication (TLS)
@@ -132,7 +124,7 @@ Include screenshots of:
 - AI-based health anomaly detection
 - SMS/Email emergency notifications
 
-## 👩‍💻 Author
+##  Author
 
 **Ardra P**
 
